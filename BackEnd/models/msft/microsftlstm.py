@@ -16,7 +16,7 @@ def msftsavingmodel():
     df1 = np.array(df)
 
     plt.plot(df1)
-    plt.savefig("FrontEnd/stock-price-prediction/src/msftstatic/msftinitialdata.png")
+    plt.savefig("FrontEnd/stock-price-prediction/src/static/msftstatic/msftinitialdata.png")
 
     scaler = MinMaxScaler(feature_range=(0, 1))
     df1 = scaler.fit_transform(np.array(df1))
