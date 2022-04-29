@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.home_title{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 8.5em;
+    line-height: 1.3em;
+    width: 1em;
+    margin-left: 0.5em;
+    margin-top: 0.4em;
+    user-select: none;
+}
+
+.home_canvas{
+    width: 60em;
+    height: 100vh;
+    background-color: #2F3542;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.get_started_button{
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-style: none;
+    text-decoration: none;
+    color: black;
+    border-radius: 40px;
+    padding: 10px 20px 10px 20px;
+    background-color: #ffffff;
+    box-shadow: 8px 9px 20px rgba(0, 0, 0, 0.25);
+    transition: 0.3s ease-in-out;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.get_started_button:hover{
+    padding: 12px 25px 12px 25px;
+}
+
+.home_decor_one{
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 10px;
+    transform: rotate(-90deg);
+    width: 20px;
+    margin-left: 1em;
+    margin-top: 1em;
+    font-weight: 200;
+    font-size: 1.1em;
+}
+
+.home_decor_two{
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 200;
+    font-size: 1.1em;
+    text-align: right;
+    color: #000000;
+}

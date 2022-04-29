@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+}
+
+.anim {
+  width: 100vw;
+  height: 200vh;
+  background-color: #ffffff;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: -9;
+}
+
+.workspace_header {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5.5em;
+  line-height: 77px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.workspace_subheader {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.company_logo {
+  height: 7em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 125px;
+}
+
+.infosys {
+  height: 5em;
+  margin-top: 180px;
+}
+
+.reliance {
+  height: 10em;
+}
+
+.icici {
+  height: 10em;
+}
+
+.card_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 2vmax auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card_one, .card_two, .card_three, .card_four, .card_five, .card_six, .card_seven, .card_eight, .card_nine {
+  height: 450px;
+  width: 250px;
+  border: 1px solid white;
+  text-align: center;
+  margin: 5vmax;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.card_five {
+  width: 300px;
+}
+
+.card_one:hover, .card_two:hover, .card_three:hover, .card_four:hover, .card_five:hover, .card_six:hover, .card_seven:hover, .card_eight:hover, .card_nine:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 8px 9px 24px rgba(0, 0, 0, 0.25);
+          box-shadow: 8px 9px 24px rgba(0, 0, 0, 0.25);
+}
+/*# sourceMappingURL=Workspace.css.map */

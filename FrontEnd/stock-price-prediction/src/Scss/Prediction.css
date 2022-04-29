@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.msft_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-20%, 10%);
+          transform: translate(-20%, 10%);
+  width: 50%;
+}
+
+.micorsoft_header {
+  font-family: 'Inter', sans-serif;
+  font-size: 4em;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.msft_logo {
+  height: 100px;
+  margin-top: 40px;
+}
+
+.msftinitialgraph {
+  height: 25em;
+  display: block;
+  margin: auto;
+}
+
+.msft_lstm_section {
+  margin-bottom: 200px;
+}
+
+.msft_lstm_header {
+  font-family: 'Inter', sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  text-align: center;
+  color: #505050;
+}
+
+.msft_lstm_graph {
+  height: 20em;
+  display: block;
+  margin: auto;
+}
+
+.msft_arima_header {
+  font-family: 'Inter', sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  text-align: center;
+  color: #505050;
+}
+
+.msft_lstm_data {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.msft_lstm_value {
+  font-family: 'Inter', sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.msft_arima_og_header {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.ogacf {
+  height: 20em;
+  display: block;
+  margin: auto;
+}
+
+.msft_arima_section {
+  margin-bottom: 200px;
+}
+
+.msft_arima_acf_header {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
+  color: #505050;
+}
+
+.acf {
+  height: 20em;
+  display: block;
+  margin: auto;
+}
+
+.msft_arima_pacf_header {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.pacf {
+  height: 20em;
+  display: block;
+  margin: auto;
+}
+
+.msft_arima_residual_header {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.residual {
+  height: 20em;
+  display: block;
+  margin: auto;
+}
+
+.msft_arima_final_header {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.arimafinalgraph {
+  height: 20em;
+  display: block;
+  margin: auto;
+}
+
+.msft_arima_value {
+  font-family: 'Inter', sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+.msft_lr_graph {
+  height: 20em;
+  display: block;
+  margin: auto;
+}
+
+.msft_lr_header {
+  font-family: 'Inter', sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.msft_lr_value {
+  font-family: 'Inter', sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 1.5em;
+}
+/*# sourceMappingURL=Prediction.css.map */
